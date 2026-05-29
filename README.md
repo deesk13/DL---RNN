@@ -34,9 +34,9 @@ Predict on test data, plot actual vs. predicted prices.
 
 ## PROGRAM
 
-### Name: Darshan V
+### Name: DEVADHARSHINI
 
-### Register Number: 212224230050
+### Register Number: 212223240026
 
 
 ```python
@@ -70,8 +70,8 @@ def train_model(model,train_loader, criterion, optimizer,epochs=20):
     train_losses.append(total_loss/ len(train_loader))
     print(f"Epoch [{ epoch+1}/{epochs}], Loss: {total_loss/len(train_loader):.4f}")
     # Plot training loss
-  print('Name: Amruthavarshini Gopal')
-  print('Register Number: 212223230013')
+  print('Name: DEVADHARSHINI')
+  print('Register Number: 212223240026')
   plt.plot(train_losses, label='Training Loss')
   plt.xlabel('Epoch')
   plt.ylabel('MSE Loss')
@@ -86,18 +86,16 @@ train_model(model, train_loader, criterion, optimizer)
 
 ### Training Loss Over Epochs Plot
 
-<img width="550" height="549" alt="image" src="https://github.com/user-attachments/assets/89a09257-e5a2-4f4f-be98-6bb670bb17de" />
-
+<img width="678" height="192" alt="image" src="https://github.com/user-attachments/assets/8ea3af38-473e-4fae-80c8-1146aef9c7be" />
 
 
 ### True Stock Price, Predicted Stock Price vs time
 
-<img width="633" height="371" alt="image" src="https://github.com/user-attachments/assets/3b889c7b-4325-45ac-a25f-3769a72148a9" />
-
+<img width="798" height="296" alt="image" src="https://github.com/user-attachments/assets/a7e0d8ed-f9f9-47db-b517-7c9d09927c05" />
 
 
 ### Predictions
-<img width="232" height="51" alt="image" src="https://github.com/user-attachments/assets/97b54028-7e76-4594-a17c-cfb037eebd45" />
+<img width="764" height="715" alt="image" src="https://github.com/user-attachments/assets/45de3f80-5829-4f88-8cb4-4857fa0ba732" />
 
 
 ## RESULT
